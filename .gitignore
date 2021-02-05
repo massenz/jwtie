@@ -1,0 +1,35 @@
+# Copyright (c) 2019 Marco Massenzio.  All rights reserved.
+
+# Place your private data, keys, etc. in this folder:
+private/
+
+# Various output/binary locations
+venv/
+target/
+.idea/
+.out/
+
+# Various cache/temporary files
+*.pyc
+__pycache__/
+*.swp
+.ipynb_checkpoints
+
+# Generated files
+*.generated
+generated/
+.DS_Store
+_build/
+
+
+# Key Material is never a good candidate for source control.
+*.pub
+*.pem
+
+
+# Code Coverage
+.coverage
+tests/cover
+
+# kdiff3 generated files
+*.orig
