@@ -73,10 +73,11 @@ def decode_header(token):
 
 
 def emit_json(data, pretty=True):
+    indent = None
     if pretty:
-        print(json.dumps(data, indent=2))
-    else:
-        print(data)
+        indent = 2
+    print(json.dumps(data, indent=indent))
+
 
 
 if __name__ == '__main__':
